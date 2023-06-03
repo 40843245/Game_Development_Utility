@@ -1,6 +1,11 @@
 /*
-file name: Logger_Script
+
+BASIC INFO:
+file name: Logger_Script.cs
 author: mathgeeksJay
+demo: Available on GitHub 
+https://github.com/40843245/Game_Development_Utility/blob/main/Unity/Logger/Filter/Demo.md
+
 */
 
 /*
