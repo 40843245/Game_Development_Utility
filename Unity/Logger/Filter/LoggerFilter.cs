@@ -17,11 +17,27 @@ An enum that determines what kind of message will be displayed in Unity Message 
 MyNumber:
 A class that can:
 1. Convert an integer to any base.
+
 2. Add prefix to represent a number for system. 
 Such as binary number must be started with 0b.
 Such as octal number must be started with 0o.
 Such as decimal number must be started with 0d.
 Such as hexdecimal number must be started with 0x.
+
+3. Complement the number.
+
+4. Get the minimun number of bits if we represent the number with given base.
+
+*/
+
+/*
+MyNumber:
+Ulility function to get the flag with the number in myNumber instance, which its type is MyNumber class.
+*/
+
+/*
+MyCustomLogger:
+A class that determine message to log with the list in the property myNumber_Func which its type is MyNumber_Func class.
 */
 
 using System.Collections;
@@ -34,7 +50,7 @@ public enum LogFlag
     None = 0 ,
     Log = 1 ,
     Warning = 1 << 1 , 
-    Error = 1 << 2,
+    Error = 1 << 2 ,
     Exception = 1 << 3 
 };
 
