@@ -9,8 +9,21 @@ Determine what kind of message will be displayed in in Unity Message Console.
 */
 
 /*
-LogFlag is an enum that determines what kind of message will be displayed in Unity Message Console.
+LogFlag:
+An enum that determines what kind of message will be displayed in Unity Message Console.
 */
+
+/*
+MyNumber:
+A class that can:
+1. Convert an integer to any base.
+2. Add prefix to represent a number for system. 
+Such as binary number must be started with 0b.
+Such as octal number must be started with 0o.
+Such as decimal number must be started with 0d.
+Such as hexdecimal number must be started with 0x.
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
